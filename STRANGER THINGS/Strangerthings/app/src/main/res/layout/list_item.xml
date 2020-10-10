@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/size"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/imageback"
+    android:backgroundTint="#05104A">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="271dp"
+        android:layout_marginBottom="-1dp"
+        app:srcCompat="@drawable/e11" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="38dp"
+        android:text="CHARACTER  NAME:"
+        android:textColor="#FFF7F7"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="143dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="@font/aclonica"
+        android:text="ELEVEN"
+        android:textColor="#FFFCFC"
+        android:textSize="18sp" />
+</RelativeLayout>
